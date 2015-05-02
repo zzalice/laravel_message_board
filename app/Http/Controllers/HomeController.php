@@ -1,4 +1,5 @@
 <?php namespace App\Http\Controllers;
+
 use App\Message;
 
 class HomeController extends Controller {
@@ -31,8 +32,8 @@ class HomeController extends Controller {
 	 */
 	public function index()
 	{
-		$messages = Message::orderBy('id','DESC')->get();
-		return view('home')->with('messages',$messages);
+		$messages = Message::orderBy('id', 'DESC')->get();
+		return view('home')->with('messages', $messages);
 	}
 
 }

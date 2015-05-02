@@ -19,4 +19,5 @@ Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
-Route::post('new','MessageController@store');	//"new" whatever name, "MessageController" is a class, "store" is a funtion
+
+Route::post('new', 'MessageController@store');

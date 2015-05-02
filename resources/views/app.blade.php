@@ -53,7 +53,7 @@
 		</div>
 	</nav>
 
-	@yield('content')	<!--this whole file designed the same part of the web. "content" can be replaced. like file home.blade.php-->
+	@yield('content')
 
 	<!-- Scripts -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
